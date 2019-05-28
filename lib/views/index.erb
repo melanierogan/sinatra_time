@@ -1,22 +1,8 @@
 <link rel="stylesheet" type="text/css" href="/style.css">
 <div align="center">
   <div>
-    <% if @name === nil %>
-    <h1>Name that kitty!</h1>
-    <% else %>
     <h1>My name is chikka chikka Slim <%=@name%></h1>
-    <% end %>
     <img src=http://bit.ly/1eze8aE' style='border:2px dashed #CD4134'>
   </div>
 
-  <% if @name === nil %>
-  <div>
-    <form action="/named-cat">
-     <br><br>
-      Name:<br>
-      <input type="text" name="firstname" value="The best name ever"><br>
-      <input type="submit" value="Submit">
-      <br>
-    </form>
-  <% end %>
-  </div>
+</div>
